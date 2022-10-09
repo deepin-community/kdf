@@ -1,0 +1,9 @@
+# private library
+kdf: package-name-doesnt-match-sonames libkdfprivate20
+# private library
+kdf: no-symbols-control-file
+# kdf doesn’t have command line arguments
+kdf: no-manual-page usr/bin/kdf
+# kwikdisk doesn’t have command line arguments
+kdf: no-manual-page usr/bin/kwikdisk
+

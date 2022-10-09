@@ -1,0 +1,413 @@
+# translation of kdf.po to Spanish
+# Translation to spanish
+# Copyright (C) 2000-2002
+#
+# Pablo de Vicente <vicente@oan.es>, 2000-2002.
+# Eloy Cuadra <eloihr2@eresmas.com>, 2003.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2004, 2007, 2008, 2009, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-01 00:18+0000\n"
+"PO-Revision-Date: 2016-04-14 12:35+0200\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"First-Translator: Valux (Carlos Calzada Grau) <carlos@valux.org>\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eloy Cuadra,Pablo de Vicente"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ecuadra@eloihr.net,vicente@oan.es"
+
+#. i18n: ectx: Menu (file)
+#: desktop/kdfui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Archivo"
+
+#: src/disklist.cpp:340
+#, kde-format
+msgid "could not execute [%1]"
+msgstr "no se pudo ejecutar [%1]"
+
+#: src/disks.cpp:277
+#, kde-format
+msgid ""
+"Called: %1\n"
+"\n"
+msgstr ""
+"Llamada: %1\n"
+"\n"
+
+#: src/disks.cpp:298
+#, kde-format
+msgid "could not execute %1"
+msgstr "no se pudo ejecutar %1"
+
+#: src/kcmdf.cpp:55
+#, kde-format
+msgid ""
+"A right mouse button click opens a context menu to mount/unmount a device or "
+"to open it in the file manager."
+msgstr ""
+"Un clic del botón derecho del ratón abre un menú de contexto para montar/"
+"desmontar un dispositivo o para abrirlo en el gestor de archivos."
+
+#: src/kdf.cpp:37
+#, kde-format
+msgid "KDE free disk space utility"
+msgstr "Utilidad KDE de espacio libre en disco"
+
+#: src/kdf.cpp:46
+#, kde-format
+msgctxt "Update action"
+msgid "&Update"
+msgstr "Act&ualizar"
+
+#: src/kdf.cpp:82
+#, kde-format
+msgid "KDiskFree"
+msgstr "KDiskFree"
+
+#: src/kdf.cpp:86
+#, kde-format
+msgid "(c) 1998-2001, Michael Kropfberger"
+msgstr "(c) 1998-2001, Michael Kropfberger"
+
+#: src/kdf.cpp:93 src/kwikdisk.cpp:334
+#, kde-format
+msgid "Michael Kropfberger"
+msgstr "Michael Kropfberger"
+
+#: src/kdfconfig.cpp:47
+#, kde-format
+msgctxt "TODO"
+msgid "Icon"
+msgstr "Icono"
+
+#: src/kdfconfig.cpp:48 src/kdfwidget.cpp:67
+#, kde-format
+msgctxt "Device of the storage"
+msgid "Device"
+msgstr "Dispositivo"
+
+#: src/kdfconfig.cpp:49 src/kdfwidget.cpp:68
+#, kde-format
+msgctxt "Filesystem on storage"
+msgid "Type"
+msgstr "Tipo"
+
+#: src/kdfconfig.cpp:50 src/kdfwidget.cpp:69
+#, kde-format
+msgctxt "Total size of the storage"
+msgid "Size"
+msgstr "Tamaño"
+
+#: src/kdfconfig.cpp:51
+#, kde-format
+msgctxt "Mount point of the storage"
+msgid "Mount Point"
+msgstr "Punto de montaje"
+
+#: src/kdfconfig.cpp:52 src/kdfwidget.cpp:71
+#, kde-format
+msgctxt "Free space in storage"
+msgid "Free"
+msgstr "Libre"
+
+#: src/kdfconfig.cpp:53 src/kdfwidget.cpp:72
+#, kde-format
+msgctxt "Used storage space in %"
+msgid "Full %"
+msgstr "% lleno"
+
+#: src/kdfconfig.cpp:54 src/kdfwidget.cpp:73
+#, kde-format
+msgctxt "Usage graphical bar"
+msgid "Usage"
+msgstr "Uso"
+
+#: src/kdfconfig.cpp:79 src/kdfconfig.cpp:182
+#, kde-format
+msgctxt "Visible items on device information columns (enable|disable)"
+msgid "visible"
+msgstr "visible"
+
+#: src/kdfconfig.cpp:162
+#, kde-format
+msgctxt "Are items on device information columns visible?"
+msgid "visible"
+msgstr "visible"
+
+#: src/kdfconfig.cpp:163
+#, kde-format
+msgctxt "Are items on device information columns hidden?"
+msgid "hidden"
+msgstr "oculto"
+
+#: src/kdfconfig.cpp:199
+#, kde-format
+msgctxt "Device information item is hidden"
+msgid "hidden"
+msgstr "oculto"
+
+#: src/kdfconfig.cpp:200
+#, kde-format
+msgctxt "Device information item is visible"
+msgid "visible"
+msgstr "visible"
+
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: src/kdfconfig.ui:35
+#, kde-format
+msgid "Update frequency:"
+msgstr "Frecuencia de actualización:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
+#: src/kdfconfig.ui:42
+#, kde-format
+msgid " sec"
+msgstr " seg"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
+#: src/kdfconfig.ui:55
+#, kde-format
+msgid "Open file manager automatically on mount"
+msgstr "Abrir el gestor de archivos automáticamente al montar"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
+#: src/kdfconfig.ui:62
+#, kde-format
+msgid "Pop up a window when a disk gets critically full"
+msgstr ""
+"Mostrar una ventana cuando el disco llegue a un nivel crítico de llenado"
+
+#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
+#: src/kdfconfig.ui:69
+#, no-c-format, kde-format
+msgid "File manager (e.g. konsole -e mc %m):"
+msgstr "Gestor de archivos (p.ej. konsole -e mc %m):"
+
+#: src/kdfitemdelegate.cpp:46 src/kdfwidget.cpp:304
+#, kde-format
+msgctxt "Disk percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: src/kdfwidget.cpp:70
+#, kde-format
+msgctxt "Mount point of storage"
+msgid "Mount Point"
+msgstr "Punto de montaje"
+
+#: src/kdfwidget.cpp:309 src/kdfwidget.cpp:310
+#, kde-format
+msgid "N/A"
+msgstr "N/D"
+
+#: src/kdfwidget.cpp:366 src/kwikdisk.cpp:283
+#, kde-format
+msgid "Device [%1] on [%2] is critically full."
+msgstr "El dispositivo [%1] en [%2] está en un nivel crítico de llenado."
+
+#: src/kdfwidget.cpp:368
+#, kde-format
+msgctxt "Warning device getting critically full"
+msgid "Warning"
+msgstr "Aviso"
+
+#: src/kdfwidget.cpp:416
+#, kde-format
+msgid "Mount Device"
+msgstr "Montar dispositivo"
+
+#: src/kdfwidget.cpp:417
+#, kde-format
+msgid "Unmount Device"
+msgstr "Desmontar dispositivo"
+
+#: src/kdfwidget.cpp:419
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Abrir en el gestor de archivos"
+
+#: src/kdfwidget.cpp:436 src/kdfwidget.cpp:439
+#, kde-format
+msgid "MOUNTING"
+msgstr "MONTANDO"
+
+#: src/kwikdisk.cpp:56
+#, kde-format
+msgid "KDE Free disk space utility"
+msgstr "Utilidad de espacio libre en disco de KDE"
+
+#: src/kwikdisk.cpp:78 src/kwikdisk.cpp:325
+#, kde-format
+msgid "KwikDisk"
+msgstr "KwikDisk"
+
+#: src/kwikdisk.cpp:84
+#, kde-format
+msgid "&Start KDiskFree"
+msgstr "&Iniciar KDiskFree"
+
+#: src/kwikdisk.cpp:88
+#, kde-format
+msgid "&Configure KwikDisk..."
+msgstr "&Configurar KwikDisk..."
+
+#: src/kwikdisk.cpp:196
+#, kde-format
+msgctxt "Unmount the storage device"
+msgid "Unmount"
+msgstr "Desmontar"
+
+#: src/kwikdisk.cpp:196
+#, kde-format
+msgctxt "Mount the storage device"
+msgid "Mount"
+msgstr "Montar"
+
+#: src/kwikdisk.cpp:219
+#, kde-format
+msgid "You must login as root to mount this disk"
+msgstr "Debe tener privilegios de root para montar este disco"
+
+#: src/kwikdisk.cpp:285
+#, kde-format
+msgctxt "Device is getting critically full"
+msgid "Warning"
+msgstr "Aviso"
+
+#: src/kwikdisk.cpp:329
+#, kde-format
+msgid "(C) 2004 Stanislav Karchebny"
+msgstr "(C) 2004 Stanislav Karchebny"
+
+#: src/kwikdisk.cpp:335
+#, kde-format
+msgid "Original author"
+msgstr "Autor original"
+
+#: src/kwikdisk.cpp:337
+#, kde-format
+msgid "Espen Sand"
+msgstr "Espen Sand"
+
+#: src/kwikdisk.cpp:338
+#, kde-format
+msgid "KDE 2 changes"
+msgstr "Cambios para KDE 2"
+
+#: src/kwikdisk.cpp:339
+#, kde-format
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#: src/kwikdisk.cpp:340
+#, kde-format
+msgid "KDE 3 changes"
+msgstr "Cambios para KDE 3"
+
+#: src/mntconfig.cpp:63 src/mntconfig.cpp:68
+#, kde-format
+msgid "Device"
+msgstr "Dispositivo"
+
+#: src/mntconfig.cpp:64 src/mntconfig.cpp:70
+#, kde-format
+msgid "Mount Point"
+msgstr "Punto de montaje"
+
+#: src/mntconfig.cpp:64
+#, kde-format
+msgid "Mount Command"
+msgstr "Orden para montar"
+
+#: src/mntconfig.cpp:64
+#, kde-format
+msgid "Unmount Command"
+msgstr "Orden para desmontar"
+
+#: src/mntconfig.cpp:69
+#, kde-format
+msgctxt "No device is selected"
+msgid "None"
+msgstr "Ninguno"
+
+#: src/mntconfig.cpp:71
+#, kde-format
+msgctxt "No mount point is selected"
+msgid "None"
+msgstr "Ninguno"
+
+#: src/mntconfig.cpp:255
+#, kde-format
+msgid "Only local files supported."
+msgstr "Solo se soportan archivos locales."
+
+#: src/mntconfig.cpp:271
+#, kde-format
+msgid "Only local files are currently supported."
+msgstr "En la actualidad solo se soportan archivos locales."
+
+#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
+#: src/mntconfig.ui:20
+#, kde-format
+msgid "Icon name:"
+msgstr "Nombre del icono:"
+
+#. i18n: ectx: property (text), widget (QLabel, mountLabel)
+#: src/mntconfig.ui:30
+#, kde-format
+msgid "Mount Command:"
+msgstr "Orden para montar:"
+
+#. i18n: ectx: property (text), widget (QLabel, umountLabel)
+#: src/mntconfig.ui:40
+#, kde-format
+msgid "Unmount Command:"
+msgstr "Orden para desmontar:"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
+#: src/mntconfig.ui:50
+#, kde-format
+msgid "Default Icon"
+msgstr "Icono por omisión"
+
+#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
+#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
+#: src/mntconfig.ui:57 src/mntconfig.ui:64
+#, kde-format
+msgid "Get Command..."
+msgstr "Obtener orden..."
+
+#: src/optiondialog.cpp:31
+#, kde-format
+msgid "Configure"
+msgstr "Configurar"
+
+#: src/optiondialog.cpp:37
+#, kde-format
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: src/optiondialog.cpp:41
+#, kde-format
+msgid "Mount Commands"
+msgstr "Órdenes de montaje"
+
+#~ msgid "A test application"
+#~ msgstr "Una aplicación de prueba"

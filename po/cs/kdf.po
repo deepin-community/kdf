@@ -1,0 +1,406 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Lukáš Tinkl <ltinkl@redhat.com>, 2010.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-01 00:18+0000\n"
+"PO-Revision-Date: 2016-04-18 09:48+0100\n"
+"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lukáš Tinkl"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukas@kde.org"
+
+#. i18n: ectx: Menu (file)
+#: desktop/kdfui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Soubor"
+
+#: src/disklist.cpp:340
+#, kde-format
+msgid "could not execute [%1]"
+msgstr "nelze spustit [%1]"
+
+#: src/disks.cpp:277
+#, kde-format
+msgid ""
+"Called: %1\n"
+"\n"
+msgstr ""
+"Voláno: %1\n"
+"\n"
+
+#: src/disks.cpp:298
+#, kde-format
+msgid "could not execute %1"
+msgstr "nelze spustit %1"
+
+#: src/kcmdf.cpp:55
+#, kde-format
+msgid ""
+"A right mouse button click opens a context menu to mount/unmount a device or "
+"to open it in the file manager."
+msgstr ""
+"Kliknutí pravým tlačítkem myši otevře kontextovou nabídku pro připojení/"
+"odpojení zařízení nebo pro jeho otevření ve správci souborů."
+
+#: src/kdf.cpp:37
+#, kde-format
+msgid "KDE free disk space utility"
+msgstr "Údaje o volném místu na disku pro KDE"
+
+#: src/kdf.cpp:46
+#, kde-format
+msgctxt "Update action"
+msgid "&Update"
+msgstr "Akt&ualizovat"
+
+#: src/kdf.cpp:82
+#, kde-format
+msgid "KDiskFree"
+msgstr "KDiskFree"
+
+#: src/kdf.cpp:86
+#, kde-format
+msgid "(c) 1998-2001, Michael Kropfberger"
+msgstr "(c) 1998-2001, Michael Kropfberger"
+
+#: src/kdf.cpp:93 src/kwikdisk.cpp:334
+#, kde-format
+msgid "Michael Kropfberger"
+msgstr "Michael Kropfberger"
+
+#: src/kdfconfig.cpp:47
+#, kde-format
+msgctxt "TODO"
+msgid "Icon"
+msgstr "Ikona"
+
+#: src/kdfconfig.cpp:48 src/kdfwidget.cpp:67
+#, kde-format
+msgctxt "Device of the storage"
+msgid "Device"
+msgstr "Zařízení"
+
+#: src/kdfconfig.cpp:49 src/kdfwidget.cpp:68
+#, kde-format
+msgctxt "Filesystem on storage"
+msgid "Type"
+msgstr "Typ"
+
+#: src/kdfconfig.cpp:50 src/kdfwidget.cpp:69
+#, kde-format
+msgctxt "Total size of the storage"
+msgid "Size"
+msgstr "Velikost"
+
+#: src/kdfconfig.cpp:51
+#, kde-format
+msgctxt "Mount point of the storage"
+msgid "Mount Point"
+msgstr "Místo připojení"
+
+#: src/kdfconfig.cpp:52 src/kdfwidget.cpp:71
+#, kde-format
+msgctxt "Free space in storage"
+msgid "Free"
+msgstr "Volné"
+
+#: src/kdfconfig.cpp:53 src/kdfwidget.cpp:72
+#, kde-format
+msgctxt "Used storage space in %"
+msgid "Full %"
+msgstr "Zaplnění %"
+
+#: src/kdfconfig.cpp:54 src/kdfwidget.cpp:73
+#, kde-format
+msgctxt "Usage graphical bar"
+msgid "Usage"
+msgstr "Použití"
+
+#: src/kdfconfig.cpp:79 src/kdfconfig.cpp:182
+#, kde-format
+msgctxt "Visible items on device information columns (enable|disable)"
+msgid "visible"
+msgstr "viditelné"
+
+#: src/kdfconfig.cpp:162
+#, kde-format
+msgctxt "Are items on device information columns visible?"
+msgid "visible"
+msgstr "viditelné"
+
+#: src/kdfconfig.cpp:163
+#, kde-format
+msgctxt "Are items on device information columns hidden?"
+msgid "hidden"
+msgstr "skryté"
+
+#: src/kdfconfig.cpp:199
+#, kde-format
+msgctxt "Device information item is hidden"
+msgid "hidden"
+msgstr "skryté"
+
+#: src/kdfconfig.cpp:200
+#, kde-format
+msgctxt "Device information item is visible"
+msgid "visible"
+msgstr "viditelné"
+
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: src/kdfconfig.ui:35
+#, kde-format
+msgid "Update frequency:"
+msgstr "Frekvence aktualizací:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
+#: src/kdfconfig.ui:42
+#, kde-format
+msgid " sec"
+msgstr " sek"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
+#: src/kdfconfig.ui:55
+#, kde-format
+msgid "Open file manager automatically on mount"
+msgstr "Otevřít správce souborů automaticky po připojení"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
+#: src/kdfconfig.ui:62
+#, kde-format
+msgid "Pop up a window when a disk gets critically full"
+msgstr "Otevřít okno při kritickém zaplnění disku"
+
+#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
+#: src/kdfconfig.ui:69
+#, no-c-format, kde-format
+msgid "File manager (e.g. konsole -e mc %m):"
+msgstr "Správce souborů (např konsole -e mc %m):"
+
+#: src/kdfitemdelegate.cpp:46 src/kdfwidget.cpp:304
+#, kde-format
+msgctxt "Disk percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: src/kdfwidget.cpp:70
+#, kde-format
+msgctxt "Mount point of storage"
+msgid "Mount Point"
+msgstr "Místo připojení"
+
+#: src/kdfwidget.cpp:309 src/kdfwidget.cpp:310
+#, kde-format
+msgid "N/A"
+msgstr "Nedostupné"
+
+#: src/kdfwidget.cpp:366 src/kwikdisk.cpp:283
+#, kde-format
+msgid "Device [%1] on [%2] is critically full."
+msgstr "Zařízení [%1] v [%2] se kriticky zaplňuje."
+
+#: src/kdfwidget.cpp:368
+#, kde-format
+msgctxt "Warning device getting critically full"
+msgid "Warning"
+msgstr "Varování"
+
+#: src/kdfwidget.cpp:416
+#, kde-format
+msgid "Mount Device"
+msgstr "Připojit zařízení"
+
+#: src/kdfwidget.cpp:417
+#, kde-format
+msgid "Unmount Device"
+msgstr "Odpojit zařízení"
+
+#: src/kdfwidget.cpp:419
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Otevřít ve správci souborů"
+
+#: src/kdfwidget.cpp:436 src/kdfwidget.cpp:439
+#, kde-format
+msgid "MOUNTING"
+msgstr "Připojuji"
+
+#: src/kwikdisk.cpp:56
+#, kde-format
+msgid "KDE Free disk space utility"
+msgstr "Údaje o volném místu na disku pro KDE"
+
+#: src/kwikdisk.cpp:78 src/kwikdisk.cpp:325
+#, kde-format
+msgid "KwikDisk"
+msgstr "KwikDisk"
+
+#: src/kwikdisk.cpp:84
+#, kde-format
+msgid "&Start KDiskFree"
+msgstr "Spustit &KDiskFree"
+
+#: src/kwikdisk.cpp:88
+#, kde-format
+msgid "&Configure KwikDisk..."
+msgstr "&Nastavit KWikDisk..."
+
+#: src/kwikdisk.cpp:196
+#, kde-format
+msgctxt "Unmount the storage device"
+msgid "Unmount"
+msgstr "Odpojit"
+
+#: src/kwikdisk.cpp:196
+#, kde-format
+msgctxt "Mount the storage device"
+msgid "Mount"
+msgstr "Připojit"
+
+#: src/kwikdisk.cpp:219
+#, kde-format
+msgid "You must login as root to mount this disk"
+msgstr "Musíte být root, abyste mohli připojit tento disk."
+
+#: src/kwikdisk.cpp:285
+#, kde-format
+msgctxt "Device is getting critically full"
+msgid "Warning"
+msgstr "Varování"
+
+#: src/kwikdisk.cpp:329
+#, kde-format
+msgid "(C) 2004 Stanislav Karchebny"
+msgstr "(C) 2004 Stanislav Karchebny"
+
+#: src/kwikdisk.cpp:335
+#, kde-format
+msgid "Original author"
+msgstr "Původní autor"
+
+#: src/kwikdisk.cpp:337
+#, kde-format
+msgid "Espen Sand"
+msgstr "Espen Sand"
+
+#: src/kwikdisk.cpp:338
+#, kde-format
+msgid "KDE 2 changes"
+msgstr "Změny v KDE 2"
+
+#: src/kwikdisk.cpp:339
+#, kde-format
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#: src/kwikdisk.cpp:340
+#, kde-format
+msgid "KDE 3 changes"
+msgstr "Změny v KDE 3"
+
+#: src/mntconfig.cpp:63 src/mntconfig.cpp:68
+#, kde-format
+msgid "Device"
+msgstr "Zařízení"
+
+#: src/mntconfig.cpp:64 src/mntconfig.cpp:70
+#, kde-format
+msgid "Mount Point"
+msgstr "Místo připojení"
+
+#: src/mntconfig.cpp:64
+#, kde-format
+msgid "Mount Command"
+msgstr "Příkazy pro připojení"
+
+#: src/mntconfig.cpp:64
+#, kde-format
+msgid "Unmount Command"
+msgstr " Příkaz pro odpojení"
+
+#: src/mntconfig.cpp:69
+#, kde-format
+msgctxt "No device is selected"
+msgid "None"
+msgstr "Žádné"
+
+#: src/mntconfig.cpp:71
+#, kde-format
+msgctxt "No mount point is selected"
+msgid "None"
+msgstr "Žádný"
+
+#: src/mntconfig.cpp:255
+#, kde-format
+msgid "Only local files supported."
+msgstr "Zatím jsou podporovány pouze lokální soubory."
+
+#: src/mntconfig.cpp:271
+#, kde-format
+msgid "Only local files are currently supported."
+msgstr "Zatím jsou podporovány pouze lokální soubory."
+
+#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
+#: src/mntconfig.ui:20
+#, kde-format
+msgid "Icon name:"
+msgstr "Název ikony:"
+
+#. i18n: ectx: property (text), widget (QLabel, mountLabel)
+#: src/mntconfig.ui:30
+#, kde-format
+msgid "Mount Command:"
+msgstr "Příkaz pro připojení:"
+
+#. i18n: ectx: property (text), widget (QLabel, umountLabel)
+#: src/mntconfig.ui:40
+#, kde-format
+msgid "Unmount Command:"
+msgstr "Příkaz pro odpojení:"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
+#: src/mntconfig.ui:50
+#, kde-format
+msgid "Default Icon"
+msgstr "Výchozí ikona"
+
+#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
+#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
+#: src/mntconfig.ui:57 src/mntconfig.ui:64
+#, kde-format
+msgid "Get Command..."
+msgstr "Získat příkaz..."
+
+#: src/optiondialog.cpp:31
+#, kde-format
+msgid "Configure"
+msgstr "Nastavit"
+
+#: src/optiondialog.cpp:37
+#, kde-format
+msgid "General Settings"
+msgstr "Obecná nastavení"
+
+#: src/optiondialog.cpp:41
+#, kde-format
+msgid "Mount Commands"
+msgstr "Příkazy pro připojení"

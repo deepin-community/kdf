@@ -1,0 +1,473 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2006, 2007.
+# Yasen Pramatarov <yasen@lindeas.com>, 2011, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-01 00:18+0000\n"
+"PO-Revision-Date: 2021-01-06 12:54+0200\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@ludost.net>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 20.08.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ясен Праматаров"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yasen@lindeas.com"
+
+#. i18n: ectx: Menu (file)
+#: desktop/kdfui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Файл"
+
+#: src/disklist.cpp:340
+#, kde-format
+msgid "could not execute [%1]"
+msgstr "грешка при изпълнение на [%1]"
+
+#: src/disks.cpp:277
+#, kde-format
+msgid ""
+"Called: %1\n"
+"\n"
+msgstr ""
+"Заредено: %1\n"
+"\n"
+
+#: src/disks.cpp:298
+#, kde-format
+msgid "could not execute %1"
+msgstr "грешка при изпълнение на \"%1\""
+
+#: src/kcmdf.cpp:55
+#, kde-format
+msgid ""
+"A right mouse button click opens a context menu to mount/unmount a device or "
+"to open it in the file manager."
+msgstr ""
+"Десният бутон на мишката извиква меня за монтиране, демонтиране или отваряне "
+"във файлов браузър."
+
+#: src/kdf.cpp:37
+#, kde-format
+msgid "KDE free disk space utility"
+msgstr "Програма за показване на свободното дисково пространство"
+
+#: src/kdf.cpp:46
+#, kde-format
+msgctxt "Update action"
+msgid "&Update"
+msgstr "&Обновяване"
+
+#: src/kdf.cpp:82
+#, kde-format
+msgid "KDiskFree"
+msgstr "KDiskFree"
+
+#: src/kdf.cpp:86
+#, kde-format
+msgid "(c) 1998-2001, Michael Kropfberger"
+msgstr "(c) 1998-2001, Michael Kropfberger"
+
+#: src/kdf.cpp:93 src/kwikdisk.cpp:334
+#, kde-format
+msgid "Michael Kropfberger"
+msgstr "Michael Kropfberger"
+
+#: src/kdfconfig.cpp:47
+#, kde-format
+msgctxt "TODO"
+msgid "Icon"
+msgstr "Икона"
+
+#: src/kdfconfig.cpp:48 src/kdfwidget.cpp:67
+#, kde-format
+msgctxt "Device of the storage"
+msgid "Device"
+msgstr "Устройство"
+
+#: src/kdfconfig.cpp:49 src/kdfwidget.cpp:68
+#, kde-format
+msgctxt "Filesystem on storage"
+msgid "Type"
+msgstr "Вид"
+
+#: src/kdfconfig.cpp:50 src/kdfwidget.cpp:69
+#, kde-format
+msgctxt "Total size of the storage"
+msgid "Size"
+msgstr "Размер"
+
+#: src/kdfconfig.cpp:51
+#, kde-format
+msgctxt "Mount point of the storage"
+msgid "Mount Point"
+msgstr "Точка на монтиране"
+
+#: src/kdfconfig.cpp:52 src/kdfwidget.cpp:71
+#, kde-format
+msgctxt "Free space in storage"
+msgid "Free"
+msgstr "Свободно"
+
+#: src/kdfconfig.cpp:53 src/kdfwidget.cpp:72
+#, kde-format
+msgctxt "Used storage space in %"
+msgid "Full %"
+msgstr "% запълване"
+
+#: src/kdfconfig.cpp:54 src/kdfwidget.cpp:73
+#, kde-format
+msgctxt "Usage graphical bar"
+msgid "Usage"
+msgstr "Употреба"
+
+#: src/kdfconfig.cpp:79 src/kdfconfig.cpp:182
+#, kde-format
+msgctxt "Visible items on device information columns (enable|disable)"
+msgid "visible"
+msgstr "видимо"
+
+#: src/kdfconfig.cpp:162
+#, kde-format
+msgctxt "Are items on device information columns visible?"
+msgid "visible"
+msgstr "видимо"
+
+#: src/kdfconfig.cpp:163
+#, kde-format
+msgctxt "Are items on device information columns hidden?"
+msgid "hidden"
+msgstr "скрито"
+
+#: src/kdfconfig.cpp:199
+#, kde-format
+msgctxt "Device information item is hidden"
+msgid "hidden"
+msgstr "скрито"
+
+#: src/kdfconfig.cpp:200
+#, kde-format
+msgctxt "Device information item is visible"
+msgid "visible"
+msgstr "видимо"
+
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: src/kdfconfig.ui:35
+#, kde-format
+msgid "Update frequency:"
+msgstr "Честота на обновяване:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
+#: src/kdfconfig.ui:42
+#, kde-format
+msgid " sec"
+msgstr " сек"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
+#: src/kdfconfig.ui:55
+#, kde-format
+msgid "Open file manager automatically on mount"
+msgstr "Автоматично отваряне на файловия браузър при монтиране"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
+#: src/kdfconfig.ui:62
+#, kde-format
+msgid "Pop up a window when a disk gets critically full"
+msgstr "Появяване на прозореца, когато дискът се запълни до критично ниво"
+
+#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
+#: src/kdfconfig.ui:69
+#, no-c-format, kde-format
+msgid "File manager (e.g. konsole -e mc %m):"
+msgstr "Файлов браузър (например, konsole -e mc %m):"
+
+#: src/kdfitemdelegate.cpp:46 src/kdfwidget.cpp:304
+#, kde-format
+msgctxt "Disk percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: src/kdfwidget.cpp:70
+#, kde-format
+msgctxt "Mount point of storage"
+msgid "Mount Point"
+msgstr "Точка на монтиране"
+
+#: src/kdfwidget.cpp:309 src/kdfwidget.cpp:310
+#, kde-format
+msgid "N/A"
+msgstr "---"
+
+#: src/kdfwidget.cpp:366 src/kwikdisk.cpp:283
+#, kde-format
+msgid "Device [%1] on [%2] is critically full."
+msgstr "Устройство [%1] на [%2] е критично запълнено."
+
+#: src/kdfwidget.cpp:368
+#, kde-format
+msgctxt "Warning device getting critically full"
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: src/kdfwidget.cpp:416
+#, kde-format
+msgid "Mount Device"
+msgstr "Монтиране на устройство"
+
+#: src/kdfwidget.cpp:417
+#, kde-format
+msgid "Unmount Device"
+msgstr "Демонтиране на устройство"
+
+#: src/kdfwidget.cpp:419
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Отваряне във файлов браузър"
+
+#: src/kdfwidget.cpp:436 src/kdfwidget.cpp:439
+#, kde-format
+msgid "MOUNTING"
+msgstr "Монтиране"
+
+#: src/kwikdisk.cpp:56
+#, kde-format
+msgid "KDE Free disk space utility"
+msgstr "Показване на свободното дисково пространство"
+
+#: src/kwikdisk.cpp:78 src/kwikdisk.cpp:325
+#, kde-format
+msgid "KwikDisk"
+msgstr "KwikDisk"
+
+#: src/kwikdisk.cpp:84
+#, kde-format
+msgid "&Start KDiskFree"
+msgstr "&Зареждане на KDiskFree"
+
+#: src/kwikdisk.cpp:88
+#, kde-format
+msgid "&Configure KwikDisk..."
+msgstr "&Настройки на KwikDisk..."
+
+#: src/kwikdisk.cpp:196
+#, kde-format
+msgctxt "Unmount the storage device"
+msgid "Unmount"
+msgstr "Демонтиране"
+
+#: src/kwikdisk.cpp:196
+#, kde-format
+msgctxt "Mount the storage device"
+msgid "Mount"
+msgstr "Монтиране"
+
+#: src/kwikdisk.cpp:219
+#, kde-format
+msgid "You must login as root to mount this disk"
+msgstr ""
+"Трябва да имате администраторски права, за да монтирате това устройство"
+
+#: src/kwikdisk.cpp:285
+#, kde-format
+msgctxt "Device is getting critically full"
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: src/kwikdisk.cpp:329
+#, kde-format
+msgid "(C) 2004 Stanislav Karchebny"
+msgstr "(C) 2004 Stanislav Karchebny"
+
+#: src/kwikdisk.cpp:335
+#, kde-format
+msgid "Original author"
+msgstr "Първоначален автор"
+
+#: src/kwikdisk.cpp:337
+#, kde-format
+msgid "Espen Sand"
+msgstr "Espen Sand"
+
+#: src/kwikdisk.cpp:338
+#, kde-format
+msgid "KDE 2 changes"
+msgstr "Промени за KDE 2"
+
+#: src/kwikdisk.cpp:339
+#, kde-format
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#: src/kwikdisk.cpp:340
+#, kde-format
+msgid "KDE 3 changes"
+msgstr "Промени за KDE 3"
+
+#: src/mntconfig.cpp:63 src/mntconfig.cpp:68
+#, kde-format
+msgid "Device"
+msgstr "Устройство"
+
+#: src/mntconfig.cpp:64 src/mntconfig.cpp:70
+#, kde-format
+msgid "Mount Point"
+msgstr "Точка на монтиране"
+
+#: src/mntconfig.cpp:64
+#, kde-format
+msgid "Mount Command"
+msgstr "Команда за монтиране"
+
+#: src/mntconfig.cpp:64
+#, kde-format
+msgid "Unmount Command"
+msgstr "Команда за демонтиране"
+
+#: src/mntconfig.cpp:69
+#, kde-format
+msgctxt "No device is selected"
+msgid "None"
+msgstr "Без"
+
+#: src/mntconfig.cpp:71
+#, kde-format
+msgctxt "No mount point is selected"
+msgid "None"
+msgstr "Без"
+
+#: src/mntconfig.cpp:255
+#, kde-format
+msgid "Only local files supported."
+msgstr "Поддържат се само локални файлове."
+
+#: src/mntconfig.cpp:271
+#, kde-format
+msgid "Only local files are currently supported."
+msgstr "Засега се поддържат само локални файлове."
+
+#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
+#: src/mntconfig.ui:20
+#, kde-format
+msgid "Icon name:"
+msgstr "Име на икона:"
+
+#. i18n: ectx: property (text), widget (QLabel, mountLabel)
+#: src/mntconfig.ui:30
+#, kde-format
+msgid "Mount Command:"
+msgstr "Команда за монтиране:"
+
+#. i18n: ectx: property (text), widget (QLabel, umountLabel)
+#: src/mntconfig.ui:40
+#, kde-format
+msgid "Unmount Command:"
+msgstr "Команда за демонтиране:"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
+#: src/mntconfig.ui:50
+#, kde-format
+msgid "Default Icon"
+msgstr "Икона по подразбиране"
+
+#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
+#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
+#: src/mntconfig.ui:57 src/mntconfig.ui:64
+#, fuzzy, kde-format
+#| msgid "Get Unmount Command"
+msgid "Get Command..."
+msgstr "Команда за демонтиране"
+
+#: src/optiondialog.cpp:31
+#, kde-format
+msgid "Configure"
+msgstr "Настройки"
+
+#: src/optiondialog.cpp:37
+#, kde-format
+msgid "General Settings"
+msgstr "Общи настройки"
+
+#: src/optiondialog.cpp:41
+#, kde-format
+msgid "Mount Commands"
+msgstr "Команди за монтиране"
+
+#~ msgid "A test application"
+#~ msgstr "Пробна програма"
+
+#, fuzzy
+#~| msgid ""
+#~| "<h3>Hardware Information</h3><br> All the information modules return "
+#~| "information about a certain aspect of your computer hardware or your "
+#~| "operating system. Not all modules are available on all hardware "
+#~| "architectures and/or operating systems."
+#~ msgid ""
+#~ "<h3>Hardware Information</h3><br /> All the information modules return "
+#~ "information about a certain aspect of your computer hardware or your "
+#~ "operating system. Not all modules are available on all hardware "
+#~ "architectures and/or operating systems."
+#~ msgstr ""
+#~ "<h3>Информация за хардуера</h3> <br>Всички информационни модули връщат "
+#~ "информация за отделните аспекти на вашата система, като хардуер или "
+#~ "операционна система. Не всички модули обаче са налични за всички "
+#~ "архитектури или операционни системи."
+
+#~ msgid "Update frequency [seconds]. The value 0 disables update"
+#~ msgstr "Време на обновяване в секунди (0 - изключено)"
+
+#, fuzzy
+#~| msgid "Mount Command"
+#~ msgid "Mount command:"
+#~ msgstr "Команда за монтиране"
+
+#, fuzzy
+#~| msgid "Unmount Command"
+#~ msgid "Unmount command:"
+#~ msgstr "Команда за демонтиране"
+
+#~ msgid ""
+#~ "This filename is not valid: %1\n"
+#~ "It must end with \"_mount\" or \"_unmount\"."
+#~ msgstr ""
+#~ "Името на файл \"%1\" не е валидно. То трябва да завършва с \"_mount\" или "
+#~ "\"_unmount\"."
+
+#~ msgid "%1 (%2) %3 on %4"
+#~ msgstr "%1 (%2) %3 на %4"
+
+#, fuzzy
+#~| msgid "Icon"
+#~ msgctxt "Storage device icon"
+#~ msgid "Icon"
+#~ msgstr "Икона"
+
+#, fuzzy
+#~| msgid "visible"
+#~ msgctxt "Item on the device information column is visible"
+#~ msgid "visible"
+#~ msgstr "вкл."
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Радостин Раднев,Борислав Александров"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "radnev@yahoo.com,B.Aleksandrov@cnsys.bg"
